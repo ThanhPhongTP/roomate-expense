@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "RoomSplit",
+    "slug": "room-split",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.roomsplit.app"
+    },
+    "android": {
+      "package": "com.roomsplit.app",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dee3bfcf-6243-4e1d-9319-f10303c2ebf6"
+      }
+    },
+    "owner": "kanevo"
+  }
+}

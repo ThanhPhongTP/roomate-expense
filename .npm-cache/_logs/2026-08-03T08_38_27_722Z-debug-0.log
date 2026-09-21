@@ -1,0 +1,61 @@
+0 verbose cli /opt/homebrew/Cellar/node/25.2.1/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.6.2
+2 info using node@v25.2.1
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/thanhphong/Documents/Mine/RoomateExpense/.npmrc
+5 silly config load:file:/Users/thanhphong/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install expo-notifications expo-device expo-constants
+8 verbose argv "install" "expo-notifications" "expo-device" "expo-constants" "--cache" "./.npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/thanhphong/Documents/Mine/RoomateExpense/.npm-cache/_logs/2026-08-03T08_38_27_722Z-
+10 verbose logfile /Users/thanhphong/Documents/Mine/RoomateExpense/.npm-cache/_logs/2026-08-03T08_38_27_722Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with ENOTFOUND
+14 silly idealTree buildDeps
+15 silly fetch manifest expo-notifications@*
+16 silly packumentCache full:https://registry.npmjs.org/expo-notifications cache-miss
+17 http fetch GET https://registry.npmjs.org/expo-notifications attempt 1 failed with ENOTFOUND
+18 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with ENOTFOUND
+19 http fetch GET https://registry.npmjs.org/expo-notifications attempt 2 failed with ENOTFOUND
+20 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with ENOTFOUND
+21 http fetch GET https://registry.npmjs.org/expo-notifications attempt 3 failed with ENOTFOUND
+22 silly fetch manifest expo-device@*
+23 silly packumentCache full:https://registry.npmjs.org/expo-device cache-miss
+24 http fetch GET https://registry.npmjs.org/expo-device attempt 1 failed with ENOTFOUND
+25 http fetch GET https://registry.npmjs.org/expo-device attempt 2 failed with ENOTFOUND
+26 http fetch GET https://registry.npmjs.org/expo-device attempt 3 failed with ENOTFOUND
+27 silly fetch manifest expo-constants@*
+28 silly packumentCache full:https://registry.npmjs.org/expo-constants cache-miss
+29 http fetch GET https://registry.npmjs.org/expo-constants attempt 1 failed with ENOTFOUND
+30 http fetch GET https://registry.npmjs.org/expo-constants attempt 2 failed with ENOTFOUND
+31 http fetch GET https://registry.npmjs.org/expo-constants attempt 3 failed with ENOTFOUND
+32 silly placeDep ROOT expo-constants@ REPLACE for: room-split@1.0.0 want: *
+33 silly placeDep ROOT expo-device@ OK for: room-split@1.0.0 want: *
+34 silly placeDep ROOT expo-notifications@ OK for: room-split@1.0.0 want: *
+35 verbose type system
+36 verbose stack FetchError: request to https://registry.npmjs.org/expo-constants failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+36 verbose stack     at ClientRequest.<anonymous> (/opt/homebrew/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+36 verbose stack     at ClientRequest.emit (node:events:508:28)
+36 verbose stack     at emitErrorEvent (node:_http_client:108:11)
+36 verbose stack     at _destroy (node:_http_client:962:9)
+36 verbose stack     at onSocketNT (node:_http_client:982:5)
+36 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+37 error code ENOTFOUND
+38 error syscall getaddrinfo
+39 error errno ENOTFOUND
+40 error network request to https://registry.npmjs.org/expo-constants failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+41 error network This is a problem related to network connectivity.
+41 error network In most cases you are behind a proxy or have bad network settings.
+41 error network
+41 error network If you are behind a proxy, please make sure that the
+41 error network 'proxy' config is set properly.  See: 'npm help config'
+42 silly unfinished npm timer reify 1785746307932
+43 silly unfinished npm timer reify:loadTrees 1785746307933
+44 verbose cwd /Users/thanhphong/Documents/Mine/RoomateExpense
+45 verbose os Darwin 25.5.0
+46 verbose node v25.2.1
+47 verbose npm  v11.6.2
+48 verbose exit 1
+49 verbose code 1
+50 error A complete log of this run can be found in: /Users/thanhphong/Documents/Mine/RoomateExpense/.npm-cache/_logs/2026-08-03T08_38_27_722Z-debug-0.log

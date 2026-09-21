@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "139001950582",
+    "project_id": "roommate-expense-app-de220",
+    "storage_bucket": "roommate-expense-app-de220.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139001950582:android:e047d84e645baed76e4a57",
+        "android_client_info": {
+          "package_name": "com.roomsplit.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-WcMwP1ijtjUbGn3BFoHWKdQuYFZkVNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
